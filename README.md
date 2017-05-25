@@ -30,6 +30,6 @@ Matplotlib can be installed by entering the following command:
 python -m pip install matplotlib
 
 numpy-1.12.0+mkl-cp36-cp36m-win32.whl (dowloaded from http://www.lfd.uci.edu/~gohlke/pythonlibs/)
-	pip install numpy-1.12.0+mkl-cp36-cp36m-win32.whl
+pip install numpy-1.12.0+mkl-cp36-cp36m-win32.whl
 	
 Pyserial can be installed by entering the following command: pip install pyserial
