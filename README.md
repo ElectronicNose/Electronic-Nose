@@ -5,7 +5,8 @@ The application can be launched by running the file mainwindow.py in any Python 
 
 The following 6 python files contain the code of the project. The application has been developed using PyQt 5. 
 
-#mainwindow_gui.py: This file contains the code used to design the Main window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
+# mainwindow_gui.py:
+This file contains the code used to design the Main window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
 
 # mainwindow.py:
 This file contains the code for event handling of the main window. The application can be started by running this file.
