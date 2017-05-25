@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Analysis</class>
+ <widget class="QMainWindow" name="Analysis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Analysis</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>991</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_Table">
+     <attribute name="title">
+      <string>File</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>951</width>
+        <height>541</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_XY">
+     <attribute name="title">
+      <string>X-Y Plot</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_Radar">
+     <attribute name="title">
+      <string>Radar Plot</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_Box">
+     <attribute name="title">
+      <string>Box Plot</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>962</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuNormalization">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>Normalization</string>
+     </property>
+     <addaction name="actionMax_min"/>
+     <addaction name="actionStandardization_M_0_S_1"/>
+    </widget>
+    <addaction name="actionOpen"/>
+    <addaction name="menuNormalization"/>
+    <addaction name="actionBaseline_Correction"/>
+    <addaction name="actionPeak_Detection"/>
+    <addaction name="actionRise_Time"/>
+    <addaction name="actionFall_Time"/>
+    <addaction name="actionFWHM"/>
+   </widget>
+   <widget class="QMenu" name="menuPlots">
+    <property name="title">
+     <string>Plots</string>
+    </property>
+    <addaction name="actionX_Y"/>
+    <addaction name="actionRadar_Plot"/>
+    <addaction name="actionBox_Plot"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuPlots"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionMax_min">
+   <property name="text">
+    <string>Max-min</string>
+   </property>
+  </action>
+  <action name="actionStandardization_M_0_S_1">
+   <property name="text">
+    <string>Standardization (M=0,S=1)</string>
+   </property>
+  </action>
+  <action name="actionBaseline_Correction">
+   <property name="text">
+    <string>Baseline Correction</string>
+   </property>
+  </action>
+  <action name="actionPeak_Detection">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Peak Detection</string>
+   </property>
+  </action>
+  <action name="actionRise_Time">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Rise Time</string>
+   </property>
+  </action>
+  <action name="actionFall_Time">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Fall Time</string>
+   </property>
+  </action>
+  <action name="actionFWHM">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>FWHM</string>
+   </property>
+  </action>
+  <action name="actionX_Y">
+   <property name="text">
+    <string>X-Y</string>
+   </property>
+  </action>
+  <action name="actionRadar_Plot">
+   <property name="text">
+    <string>Radar Plot</string>
+   </property>
+  </action>
+  <action name="actionBox_Plot">
+   <property name="text">
+    <string>Box Plot</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
