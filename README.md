@@ -7,15 +7,20 @@ The following 6 python files contain the code of the project. The application ha
 
 #mainwindow_gui.py: This file contains the code used to design the Main window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
 
-# mainwindow.py: This file contains the code for event handling of the main window. The application can be started by running this file.
+# mainwindow.py:
+This file contains the code for event handling of the main window. The application can be started by running this file.
 
-# measurement_gui.py: This file contains the code used to design the Measurement window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
+# measurement_gui.py:
+This file contains the code used to design the Measurement window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
 
-# measurement.py: This file contains code for serial communication between RPi 3 and the system microcontroller. This file also contains code for saving the measured data in a CSV file.
+# measurement.py:
+This file contains code for serial communication between RPi 3 and the system microcontroller. This file also contains code for saving the measured data in a CSV file.
 
-# analysis_gui.py: This file contains the code to design the Analysis window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
+# analysis_gui.py:
+This file contains the code to design the Analysis window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
 
-# analysis.py: This file contains the code for backend of the Analysis window.
+# analysis.py:
+This file contains the code for backend of the Analysis window.
 
 PyQt 5 can be installed by entering the following command:
 pip3 install pyqt5
