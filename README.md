@@ -21,7 +21,7 @@ This file contains code for serial communication between RPi 3 and the system mi
 This file contains the code to design the Analysis window. This file has been generated from the user interface file (.ui) which has been designed in Qt Designer using pyuic5 utility.
 
 # analysis.py:
-This file contains the code for backend of the Analysis window.
+This file contains the code for back-end of the Analysis window.
 
 PyQt 5 can be installed by entering the following command:
 pip3 install pyqt5
