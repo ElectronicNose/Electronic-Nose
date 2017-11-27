@@ -1,3 +1,6 @@
+
+# Main UI window for electronic nose
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys,csv
 from mainwindow_gui import Ui_MainWindow
